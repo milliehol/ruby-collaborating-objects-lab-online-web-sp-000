@@ -28,7 +28,7 @@ def add_song(song)
 end
 
 def self.all
-    @@all
+    puts @@all
   end
 
 def print_songs
