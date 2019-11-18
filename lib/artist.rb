@@ -28,8 +28,8 @@ def add_song(song)
 end
 
 def self.all
-  @@all
-end
+    @@all
+  end
 
 def print_songs
     @songs.each do |song|
