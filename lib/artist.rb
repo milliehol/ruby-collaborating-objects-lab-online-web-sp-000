@@ -43,8 +43,4 @@ def print_songs
     end
   end
 
-  def to_param
-    name.downcase.gsub(' ', '-')
-  end
-
 end
