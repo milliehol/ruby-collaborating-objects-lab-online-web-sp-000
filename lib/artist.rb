@@ -18,7 +18,7 @@ def self.find_or_create_by_name(artist_name)
     found_artist
   else
     @@all << artist_name 
-    arist_name
+    artist_name
   end
 end
 
