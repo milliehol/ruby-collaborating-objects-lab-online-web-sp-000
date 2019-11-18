@@ -6,10 +6,10 @@ class Artist
     @songs = []
   end
 
-  @@artists = []
+  @artists = []
 
   def save
-    @@artists << self
+    @artists << self
   end
 
 def self.find_or_create_by_name(artist_name)
@@ -34,7 +34,7 @@ def add_song(song)
 end
 
 def self.all
-  @@artists
+  @artists
 end
 
 def print_songs
