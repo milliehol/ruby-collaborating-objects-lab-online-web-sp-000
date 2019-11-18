@@ -17,9 +17,9 @@ class Artist
       self.all.detect {|artist| artist.name == name} || Artist.new(name).save
     end
 
-def songs
-  Song.all.select {|song| song.artist == self}
-end
+   def songs
+     Song.all.select {|song| song.artist == self}
+   end
 
 def add_song(song)
   @songs << song
